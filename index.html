@@ -58,8 +58,6 @@
         function calculate(){
             if (form.disp.value == ""){
                 alert("Nhập số để tính toán");
-                // Đoạn này thông báo user nếu họ k nhập số
-                // Mà nhập dấu = thì sẽ xuất hiện thông báo
             }
             else {
                 form.disp.value = eval (form.disp.value);
@@ -69,7 +67,6 @@
         btnDel.addEventListener('click', function(){
             form.disp.value = "";
         })
-        // Do ban đầu mình k có nút Clear, nên mình tư duy theo dạng nếu User muốn Clear, thì họ sẽ phải bấm 2 lần dấu = 
     </script>
 </body>
 </html>
